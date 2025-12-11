@@ -1,0 +1,116 @@
+{
+  "queryTime": "2025-12-11T12:05:00Z",
+  "totalServices": 10,
+  "services": [
+    {
+      "serviceId": "AB1005",
+      "trainName": "Al Boraq",
+      "departureCity": "Casablanca Voyageurs",
+      "arrivalCity": "Tanger Ville",
+      "departureTime": "09:00",
+      "arrivalTime": "11:10",
+      "priceDH": 189.00,
+      "status": "À l'heure",
+      "class": "1ère classe"
+    },
+    {
+      "serviceId": "NB0240",
+      "trainName": "Navette Régionale",
+      "departureCity": "Rabat Agdal",
+      "arrivalCity": "Casablanca Port",
+      "departureTime": "07:30",
+      "arrivalTime": "08:15",
+      "priceDH": 45.00,
+      "status": "À l'heure",
+      "class": "2ème classe"
+    },
+    {
+      "serviceId": "IC4312",
+      "trainName": "Intervilles",
+      "departureCity": "Fès",
+      "arrivalCity": "Marrakech",
+      "departureTime": "11:45",
+      "arrivalTime": "18:30",
+      "priceDH": 165.00,
+      "status": "Retardé (30 min)",
+      "class": "2ème classe"
+    },
+    {
+      "serviceId": "AB1115",
+      "trainName": "Al Boraq",
+      "departureCity": "Tanger Ville",
+      "arrivalCity": "Kénitra",
+      "departureTime": "15:20",
+      "arrivalTime": "16:15",
+      "priceDH": 120.00,
+      "status": "À l'heure",
+      "class": "1ère classe"
+    },
+    {
+      "serviceId": "IC5760",
+      "trainName": "Intervilles",
+      "departureCity": "Oujda",
+      "arrivalCity": "Casablanca Voyageurs",
+      "departureTime": "21:00",
+      "arrivalTime": "07:00",
+      "priceDH": 210.00,
+      "status": "Annulé",
+      "class": "Couchette"
+    },
+    {
+      "serviceId": "REG680",
+      "trainName": "Régional",
+      "departureCity": "Safi",
+      "arrivalCity": "Benguerir",
+      "departureTime": "10:30",
+      "arrivalTime": "12:00",
+      "priceDH": 35.00,
+      "status": "À l'heure",
+      "class": "2ème classe"
+    },
+    {
+      "serviceId": "IC2025",
+      "trainName": "Intervilles",
+      "departureCity": "Marrakech",
+      "arrivalCity": "Casablanca Voyageurs",
+      "departureTime": "17:00",
+      "arrivalTime": "20:30",
+      "priceDH": 98.00,
+      "status": "À l'heure",
+      "class": "2ème classe"
+    },
+    {
+      "serviceId": "AB1040",
+      "trainName": "Al Boraq",
+      "departureCity": "Kénitra",
+      "arrivalCity": "Tanger Ville",
+      "departureTime": "13:05",
+      "arrivalTime": "14:00",
+      "priceDH": 120.00,
+      "status": "À l'heure",
+      "class": "1ère classe"
+    },
+    {
+      "serviceId": "IC9901",
+      "trainName": "Intervilles Sud",
+      "departureCity": "Casablanca Voyageurs",
+      "arrivalCity": "El Jadida",
+      "departureTime": "16:20",
+      "arrivalTime": "17:50",
+      "priceDH": 60.00,
+      "status": "À l'heure",
+      "class": "2ème classe"
+    },
+    {
+      "serviceId": "AB1050",
+      "trainName": "Al Boraq",
+      "departureCity": "Tanger Ville",
+      "arrivalCity": "Rabat Agdal",
+      "departureTime": "10:00",
+      "arrivalTime": "11:30",
+      "priceDH": 150.00,
+      "status": "À l'heure",
+      "class": "1ère classe"
+    }
+  ]
+}
