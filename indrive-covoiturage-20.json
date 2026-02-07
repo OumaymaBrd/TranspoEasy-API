@@ -1,0 +1,844 @@
+{
+  "dateRequete": "2026-02-07T12:05:00Z",
+  "plateforme": "InDrive Maroc",
+  "version": "2.0",
+  "conducteurs": [
+    {
+      "idConducteur": "CD001",
+      "nom": "Bennani",
+      "prenom": "Mohammed",
+      "age": 35,
+      "sexe": "Homme",
+      "telephoneVerifie": true,
+      "numeroTelephone": "+212612345678",
+      "email": "m.bennani@email.com",
+      "permisConduire": {
+        "numero": "A123456B",
+        "dateEmission": "2015-03-12",
+        "dateExpiration": "2028-03-12",
+        "valide": true,
+        "type": "B - Voitures légères"
+      },
+      "documentIdentite": {
+        "type": "CIN",
+        "numero": "B456789",
+        "dateEmission": "2012-05-20",
+        "dateExpiration": "2032-05-20"
+      },
+      "experience": {
+        "anneesChauffeur": 8,
+        "trajetsTotalEffectues": 2456,
+        "heuresConduite": 12280
+      },
+      "evaluation": {
+        "noteMoyenne": 4.8,
+        "nombreAvis": 567,
+        "pourcentageAcceptation": 98.5
+      },
+      "vehicule": {
+        "marque": "Toyota",
+        "modele": "Corolla",
+        "annee": 2019,
+        "immatriculation": "CASA-12345",
+        "couleur": "Gris",
+        "nombrePlaces": 4,
+        "typeTarif": "Confort",
+        "consommation": "6.5L/100km",
+        "assuranceValide": true,
+        "controleValide": true
+      },
+      "localisation": {
+        "ville": "Casablanca",
+        "latitude": 33.5731,
+        "longitude": -7.5898,
+        "adresseDernierTrajet": "Boulevard de la Corniche, Casablanca"
+      },
+      "statut": "En ligne",
+      "villesServes": ["Casablanca", "Rabat", "Salé", "Kénitra"],
+      "langues": ["Français", "Arabe", "Anglais"],
+      "documentation": {
+        "carteGrise": true,
+        "certificatAssurance": true,
+        "certificatMedical": true
+      },
+      "preferences": {
+        "fumeur": false,
+        "musicPreference": "Jazz",
+        "temperatureVoiture": 21,
+        "accepteAnimaux": false,
+        "accepteBagages": true
+      }
+    },
+    {
+      "idConducteur": "CD002",
+      "nom": "El Fassi",
+      "prenom": "Fatima",
+      "age": 28,
+      "sexe": "Femme",
+      "telephoneVerifie": true,
+      "numeroTelephone": "+212698765432",
+      "email": "f.elfassi@email.com",
+      "permisConduire": {
+        "numero": "C789012D",
+        "dateEmission": "2018-07-15",
+        "dateExpiration": "2031-07-15",
+        "valide": true,
+        "type": "B - Voitures légères"
+      },
+      "documentIdentite": {
+        "type": "CIN",
+        "numero": "D123456",
+        "dateEmission": "2018-11-10",
+        "dateExpiration": "2038-11-10"
+      },
+      "experience": {
+        "anneesChauffeur": 5,
+        "trajetsTotalEffectues": 1823,
+        "heuresConduite": 9115
+      },
+      "evaluation": {
+        "noteMoyenne": 4.9,
+        "nombreAvis": 432,
+        "pourcentageAcceptation": 99.2
+      },
+      "vehicule": {
+        "marque": "Renault",
+        "modele": "Clio",
+        "annee": 2020,
+        "immatriculation": "CASA-54321",
+        "couleur": "Blanc",
+        "nombrePlaces": 4,
+        "typeTarif": "Eco",
+        "consommation": "5.2L/100km",
+        "assuranceValide": true,
+        "controleValide": true
+      },
+      "localisation": {
+        "ville": "Fès",
+        "latitude": 34.0333,
+        "longitude": -5.0000,
+        "adresseDernierTrajet": "Avenue Hassan II, Fès"
+      },
+      "statut": "En ligne",
+      "villesServes": ["Fès", "Meknès", "Ifrane"],
+      "langues": ["Français", "Arabe"],
+      "documentation": {
+        "carteGrise": true,
+        "certificatAssurance": true,
+        "certificatMedical": true
+      },
+      "preferences": {
+        "fumeur": false,
+        "musicPreference": "Classique",
+        "temperatureVoiture": 20,
+        "accepteAnimaux": true,
+        "accepteBagages": true
+      }
+    },
+    {
+      "idConducteur": "CD003",
+      "nom": "Bouazza",
+      "prenom": "Ahmed",
+      "age": 42,
+      "sexe": "Homme",
+      "telephoneVerifie": true,
+      "numeroTelephone": "+212611111111",
+      "email": "a.bouazza@email.com",
+      "permisConduire": {
+        "numero": "E456789F",
+        "dateEmission": "2012-01-20",
+        "dateExpiration": "2025-01-20",
+        "valide": false,
+        "type": "B - Voitures légères"
+      },
+      "documentIdentite": {
+        "type": "CIN",
+        "numero": "F234567",
+        "dateEmission": "2010-06-15",
+        "dateExpiration": "2030-06-15"
+      },
+      "experience": {
+        "anneesChauffeur": 12,
+        "trajetsTotalEffectues": 3567,
+        "heuresConduite": 17835
+      },
+      "evaluation": {
+        "noteMoyenne": 4.6,
+        "nombreAvis": 612,
+        "pourcentageAcceptation": 96.8
+      },
+      "vehicule": {
+        "marque": "Mercedes-Benz",
+        "modele": "E220",
+        "annee": 2018,
+        "immatriculation": "RABA-11111",
+        "couleur": "Noir",
+        "nombrePlaces": 4,
+        "typeTarif": "Premium",
+        "consommation": "7.8L/100km",
+        "assuranceValide": true,
+        "controleValide": true
+      },
+      "localisation": {
+        "ville": "Rabat",
+        "latitude": 34.0209,
+        "longitude": -6.8416,
+        "adresseDernierTrajet": "Rue Moulay Hassan, Rabat"
+      },
+      "statut": "Hors ligne",
+      "villesServes": ["Rabat", "Salé", "Kénitra"],
+      "langues": ["Français", "Arabe", "Anglais", "Espagnol"],
+      "documentation": {
+        "carteGrise": true,
+        "certificatAssurance": true,
+        "certificatMedical": false
+      },
+      "preferences": {
+        "fumeur": false,
+        "musicPreference": "Variété",
+        "temperatureVoiture": 22,
+        "accepteAnimaux": false,
+        "accepteBagages": true
+      }
+    },
+    {
+      "idConducteur": "CD004",
+      "nom": "Taqui",
+      "prenom": "Yasmine",
+      "age": 31,
+      "sexe": "Femme",
+      "telephoneVerifie": true,
+      "numeroTelephone": "+212633333333",
+      "email": "y.taqui@email.com",
+      "permisConduire": {
+        "numero": "G789012H",
+        "dateEmission": "2016-09-08",
+        "dateExpiration": "2029-09-08",
+        "valide": true,
+        "type": "B - Voitures légères"
+      },
+      "documentIdentite": {
+        "type": "CIN",
+        "numero": "H345678",
+        "dateEmission": "2014-03-25",
+        "dateExpiration": "2034-03-25"
+      },
+      "experience": {
+        "anneesChauffeur": 6,
+        "trajetsTotalEffectues": 1456,
+        "heuresConduite": 7280
+      },
+      "evaluation": {
+        "noteMoyenne": 4.7,
+        "nombreAvis": 389,
+        "pourcentageAcceptation": 97.5
+      },
+      "vehicule": {
+        "marque": "Peugeot",
+        "modele": "308",
+        "annee": 2021,
+        "immatriculation": "MARRA-22222",
+        "couleur": "Bleu",
+        "nombrePlaces": 4,
+        "typeTarif": "Confort",
+        "consommation": "6.1L/100km",
+        "assuranceValide": true,
+        "controleValide": true
+      },
+      "localisation": {
+        "ville": "Marrakech",
+        "latitude": 31.6295,
+        "longitude": -8.0075,
+        "adresseDernierTrajet": "Avenue Mohammed VI, Marrakech"
+      },
+      "statut": "En ligne",
+      "villesServes": ["Marrakech", "Essaouira", "Ouarzazate"],
+      "langues": ["Français", "Arabe"],
+      "documentation": {
+        "carteGrise": true,
+        "certificatAssurance": true,
+        "certificatMedical": true
+      },
+      "preferences": {
+        "fumeur": false,
+        "musicPreference": "Pop",
+        "temperatureVoiture": 21,
+        "accepteAnimaux": true,
+        "accepteBagages": true
+      }
+    },
+    {
+      "idConducteur": "CD005",
+      "nom": "Karimi",
+      "prenom": "Karim",
+      "age": 29,
+      "sexe": "Homme",
+      "telephoneVerifie": true,
+      "numeroTelephone": "+212644444444",
+      "email": "k.karimi@email.com",
+      "permisConduire": {
+        "numero": "I901234J",
+        "dateEmission": "2017-04-12",
+        "dateExpiration": "2030-04-12",
+        "valide": true,
+        "type": "B - Voitures légères"
+      },
+      "documentIdentite": {
+        "type": "CIN",
+        "numero": "J456789",
+        "dateEmission": "2015-08-30",
+        "dateExpiration": "2035-08-30"
+      },
+      "experience": {
+        "anneesChauffeur": 4,
+        "trajetsTotalEffectues": 987,
+        "heuresConduite": 4935
+      },
+      "evaluation": {
+        "noteMoyenne": 4.8,
+        "nombreAvis": 245,
+        "pourcentageAcceptation": 98.9
+      },
+      "vehicule": {
+        "marque": "Hyundai",
+        "modele": "i20",
+        "annee": 2022,
+        "immatriculation": "TANGER-33333",
+        "couleur": "Rouge",
+        "nombrePlaces": 4,
+        "typeTarif": "Eco",
+        "consommation": "5.0L/100km",
+        "assuranceValide": true,
+        "controleValide": true
+      },
+      "localisation": {
+        "ville": "Tanger",
+        "latitude": 35.7671,
+        "longitude": -5.8126,
+        "adresseDernierTrajet": "Rue Pasteur, Tanger"
+      },
+      "statut": "En ligne",
+      "villesServes": ["Tanger", "Tétouan", "Larache"],
+      "langues": ["Français", "Arabe", "Anglais"],
+      "documentation": {
+        "carteGrise": true,
+        "certificatAssurance": true,
+        "certificatMedical": true
+      },
+      "preferences": {
+        "fumeur": false,
+        "musicPreference": "Hip-hop",
+        "temperatureVoiture": 21,
+        "accepteAnimaux": false,
+        "accepteBagages": true
+      }
+    }
+  ],
+  "passagers": [
+    {
+      "idPassager": "PS001",
+      "nom": "Alami",
+      "prenom": "Sara",
+      "age": 26,
+      "sexe": "Femme",
+      "telephoneVerifie": true,
+      "numeroTelephone": "+212655555555",
+      "email": "s.alami@email.com",
+      "documentIdentite": {
+        "type": "CIN",
+        "numero": "K567890",
+        "dateEmission": "2019-12-05",
+        "dateExpiration": "2039-12-05"
+      },
+      "evaluation": {
+        "noteMoyenne": 4.9,
+        "nombreAvis": 123,
+        "pourcentageTrajet": 100
+      },
+      "localisation": {
+        "ville": "Casablanca",
+        "latitude": 33.5731,
+        "longitude": -7.5898
+      },
+      "adresseFavorite": [
+        {"nom": "Domicile", "adresse": "Rue de la Paix, Casablanca"},
+        {"nom": "Travail", "adresse": "Boulevard de l'Atlantique, Casablanca"}
+      ],
+      "moyensPaiement": [
+        {"type": "Carte bancaire", "statut": "Actif"},
+        {"type": "Portefeuille digital", "solde": 245.50}
+      ],
+      "preferences": {
+        "fumeur": false,
+        "animaux": true,
+        "musique": "Pop"
+      },
+      "historique": {
+        "nombreTrajets": 45,
+        "montantTotal": 1200.00,
+        "dernierTrajet": "2026-02-06T18:30:00Z"
+      }
+    },
+    {
+      "idPassager": "PS002",
+      "nom": "Bensouda",
+      "prenom": "Ali",
+      "age": 34,
+      "sexe": "Homme",
+      "telephoneVerifie": true,
+      "numeroTelephone": "+212666666666",
+      "email": "a.bensouda@email.com",
+      "documentIdentite": {
+        "type": "CIN",
+        "numero": "L678901",
+        "dateEmission": "2016-01-10",
+        "dateExpiration": "2036-01-10"
+      },
+      "evaluation": {
+        "noteMoyenne": 4.7,
+        "nombreAvis": 89,
+        "pourcentageTrajet": 98.5
+      },
+      "localisation": {
+        "ville": "Fès",
+        "latitude": 34.0333,
+        "longitude": -5.0000
+      },
+      "adresseFavorite": [
+        {"nom": "Domicile", "adresse": "Boulevard Hassan II, Fès"},
+        {"nom": "Travail", "adresse": "Médina, Fès"}
+      ],
+      "moyensPaiement": [
+        {"type": "Carte bancaire", "statut": "Actif"}
+      ],
+      "preferences": {
+        "fumeur": false,
+        "animaux": false,
+        "musique": "Classique"
+      },
+      "historique": {
+        "nombreTrajets": 67,
+        "montantTotal": 1890.00,
+        "dernierTrajet": "2026-02-05T10:15:00Z"
+      }
+    }
+  ],
+  "trajets": [
+    {
+      "idTrajet": "TR001",
+      "typeTrajet": "Demande active",
+      "conducteur": "CD001",
+      "passager": "PS001",
+      "villeDepart": "Casablanca Centre",
+      "villeArrivee": "Aéroport de Casablanca",
+      "heureDepart": "14:30",
+      "heureArriveeEstimee": "14:55",
+      "dureeEstimee": "25min",
+      "distance": 35,
+      "latitude_depart": 33.5731,
+      "longitude_depart": -7.5898,
+      "latitude_arrivee": 33.3710,
+      "longitude_arrivee": -7.5898,
+      "etat": "En cours",
+      "tarif": {
+        "typeVoiture": "Confort",
+        "prixEstime": 85.00,
+        "prixFinal": null,
+        "devise": "DH",
+        "tauxChange": 0.094,
+        "prixEUR": 7.99
+      },
+      "nombrePassagers": 1,
+      "nombreBagages": 2,
+      "notes": "Bagage lourd - demander aide",
+      "createdAt": "2026-02-07T14:20:00Z"
+    },
+    {
+      "idTrajet": "TR002",
+      "typeTrajet": "Trajet planifié",
+      "conducteur": "CD002",
+      "passager": null,
+      "villeDepart": "Fès Nouvelle Ville",
+      "villeArrivee": "Meknès",
+      "heureDepart": "16:00",
+      "heureArriveeEstimee": "17:15",
+      "dureeEstimee": "1h 15min",
+      "distance": 65,
+      "latitude_depart": 34.0333,
+      "longitude_depart": -5.0000,
+      "latitude_arrivee": 33.8869,
+      "longitude_arrivee": -5.5500,
+      "etat": "En attente de passager",
+      "tarif": {
+        "typeVoiture": "Eco",
+        "prixEstime": 92.50,
+        "prixFinal": null,
+        "devise": "DH",
+        "tauxChange": 0.094,
+        "prixEUR": 8.70
+      },
+      "nombrePassagersMax": 3,
+      "nombrePassagersActuel": 0,
+      "nombreBagages": 0,
+      "notes": "Route touristique",
+      "createdAt": "2026-02-07T12:00:00Z"
+    },
+    {
+      "idTrajet": "TR003",
+      "typeTrajet": "Demande active",
+      "conducteur": null,
+      "passager": "PS002",
+      "villeDepart": "Fès Médina",
+      "villeArrivee": "Ifrane",
+      "heureDepart": "08:30",
+      "heureArriveeEstimee": "10:00",
+      "dureeEstimee": "1h 30min",
+      "distance": 75,
+      "latitude_depart": 34.0333,
+      "longitude_depart": -5.0000,
+      "latitude_arrivee": 33.5136,
+      "longitude_arrivee": -5.1097,
+      "etat": "En attente de conducteur",
+      "tarif": {
+        "typeVoiture": "Confort",
+        "prixEstime": 125.00,
+        "prixFinal": null,
+        "devise": "DH",
+        "tauxChange": 0.094,
+        "prixEUR": 11.75
+      },
+      "nombrePassagers": 1,
+      "nombreBagages": 1,
+      "notes": "Visite station de ski",
+      "createdAt": "2026-02-07T08:00:00Z"
+    },
+    {
+      "idTrajet": "TR004",
+      "typeTrajet": "Trajet terminé",
+      "conducteur": "CD003",
+      "passager": "PS001",
+      "villeDepart": "Rabat Port",
+      "villeArrivee": "Kénitra Gare",
+      "heureDepart": "11:00",
+      "heureArriveeEstimee": "12:10",
+      "heureArriveeReelle": "12:08",
+      "dureeReelle": "1h 08min",
+      "distance": 80,
+      "latitude_depart": 34.0209,
+      "longitude_depart": -6.8416,
+      "latitude_arrivee": 34.2565,
+      "longitude_arrivee": -6.6085,
+      "etat": "Terminé",
+      "tarif": {
+        "typeVoiture": "Premium",
+        "prixEstime": 145.00,
+        "prixFinal": 145.00,
+        "devise": "DH",
+        "tauxChange": 0.094,
+        "prixEUR": 13.63,
+        "fraisService": 5.00,
+        "montantPayePassager": 150.00
+      },
+      "nombrePassagers": 1,
+      "nombreBagages": 0,
+      "notes": "Trajet sans incident",
+      "evaluation": {
+        "conducteur": {
+          "note": 5,
+          "commentaire": "Excellent conducteur, très professionnel"
+        },
+        "passager": {
+          "note": 5,
+          "commentaire": "Passager très courtois"
+        }
+      },
+      "createdAt": "2026-02-07T10:50:00Z",
+      "completedAt": "2026-02-07T12:10:00Z"
+    },
+    {
+      "idTrajet": "TR005",
+      "typeTrajet": "Demande active",
+      "conducteur": "CD004",
+      "passager": null,
+      "villeDepart": "Marrakech Gare",
+      "villeArrivee": "Essaouira Port",
+      "heureDepart": "09:00",
+      "heureArriveeEstimee": "10:45",
+      "dureeEstimee": "1h 45min",
+      "distance": 160,
+      "latitude_depart": 31.6295,
+      "longitude_depart": -8.0075,
+      "latitude_arrivee": 31.5086,
+      "longitude_arrivee": -9.7675,
+      "etat": "En attente de passager",
+      "tarif": {
+        "typeVoiture": "Confort",
+        "prixEstime": 198.00,
+        "prixFinal": null,
+        "devise": "DH",
+        "tauxChange": 0.094,
+        "prixEUR": 18.61
+      },
+      "nombrePassagersMax": 3,
+      "nombrePassagersActuel": 0,
+      "nombreBagages": 0,
+      "notes": "Trajet côtier - paysage magnifique",
+      "createdAt": "2026-02-07T08:30:00Z"
+    },
+    {
+      "idTrajet": "TR006",
+      "typeTrajet": "Trajet planifié",
+      "conducteur": "CD005",
+      "passager": null,
+      "villeDepart": "Tanger Nouveau Port",
+      "villeArrivee": "Tétouan",
+      "heureDepart": "13:30",
+      "heureArriveeEstimee": "14:45",
+      "dureeEstimee": "1h 15min",
+      "distance": 60,
+      "latitude_depart": 35.7671,
+      "longitude_depart": -5.8126,
+      "latitude_arrivee": 35.5731,
+      "longitude_arrivee": -5.3664,
+      "etat": "En attente de passager",
+      "tarif": {
+        "typeVoiture": "Eco",
+        "prixEstime": 85.00,
+        "prixFinal": null,
+        "devise": "DH",
+        "tauxChange": 0.094,
+        "prixEUR": 7.99
+      },
+      "nombrePassagersMax": 4,
+      "nombrePassagersActuel": 0,
+      "nombreBagages": 0,
+      "notes": "Région montagneuse - route sécurisée",
+      "createdAt": "2026-02-07T12:45:00Z"
+    },
+    {
+      "idTrajet": "TR007",
+      "typeTrajet": "Trajet terminé",
+      "conducteur": "CD001",
+      "passager": "PS002",
+      "villeDepart": "Casablanca Centre Commercial",
+      "villeArrivee": "Casablanca Gare",
+      "heureDepart": "18:00",
+      "heureArriveeEstimee": "18:20",
+      "heureArriveeReelle": "18:19",
+      "dureeReelle": "19min",
+      "distance": 15,
+      "latitude_depart": 33.5731,
+      "longitude_depart": -7.5898,
+      "latitude_arrivee": 33.5647,
+      "longitude_arrivee": -7.6190,
+      "etat": "Terminé",
+      "tarif": {
+        "typeVoiture": "Confort",
+        "prixEstime": 42.00,
+        "prixFinal": 42.00,
+        "devise": "DH",
+        "tauxChange": 0.094,
+        "prixEUR": 3.95,
+        "fraisService": 2.00,
+        "montantPayePassager": 44.00
+      },
+      "nombrePassagers": 1,
+      "nombreBagages": 0,
+      "notes": "Trajet urbain court",
+      "evaluation": {
+        "conducteur": {
+          "note": 5,
+          "commentaire": "Conducteur ponctuel et courtois"
+        },
+        "passager": {
+          "note": 4,
+          "commentaire": "Bien"
+        }
+      },
+      "createdAt": "2026-02-07T17:50:00Z",
+      "completedAt": "2026-02-07T18:20:00Z"
+    },
+    {
+      "idTrajet": "TR008",
+      "typeTrajet": "Demande active",
+      "conducteur": null,
+      "passager": "PS001",
+      "villeDepart": "Casablanca Aéroport",
+      "villeArrivee": "Casablanca Ain Diab",
+      "heureDepart": "20:00",
+      "heureArriveeEstimee": "20:35",
+      "dureeEstimee": "35min",
+      "distance": 40,
+      "latitude_depart": 33.3710,
+      "longitude_depart": -7.5898,
+      "latitude_arrivee": 33.5583,
+      "longitude_arrivee": -7.6667,
+      "etat": "En attente de conducteur",
+      "tarif": {
+        "typeVoiture": "Confort",
+        "prixEstime": 95.00,
+        "prixFinal": null,
+        "devise": "DH",
+        "tauxChange": 0.094,
+        "prixEUR": 8.93
+      },
+      "nombrePassagers": 1,
+      "nombreBagages": 2,
+      "notes": "Retour de voyage",
+      "createdAt": "2026-02-07T19:45:00Z"
+    },
+    {
+      "idTrajet": "TR009",
+      "typeTrajet": "Trajet planifié",
+      "conducteur": "CD002",
+      "passager": null,
+      "villeDepart": "Fès Nouvelle Ville",
+      "villeArrivee": "Volubilis",
+      "heureDepart": "07:00",
+      "heureArriveeEstimee": "08:30",
+      "dureeEstimee": "1h 30min",
+      "distance": 80,
+      "latitude_depart": 34.0333,
+      "longitude_depart": -5.0000,
+      "latitude_arrivee": 34.0833,
+      "longitude_arrivee": -5.3500,
+      "etat": "En attente de passager",
+      "tarif": {
+        "typeVoiture": "Eco",
+        "prixEstime": 112.00,
+        "prixFinal": null,
+        "devise": "DH",
+        "tauxChange": 0.094,
+        "prixEUR": 10.53
+      },
+      "nombrePassagersMax": 4,
+      "nombrePassagersActuel": 0,
+      "nombreBagages": 0,
+      "notes": "Site archéologique - guide disponible",
+      "createdAt": "2026-02-07T06:15:00Z"
+    },
+    {
+      "idTrajet": "TR010",
+      "typeTrajet": "Demande active",
+      "conducteur": "CD004",
+      "passager": "PS002",
+      "villeDepart": "Marrakech Centre",
+      "villeArrivee": "Marrakech Aéroport",
+      "heureDepart": "11:30",
+      "heureArriveeEstimee": "12:00",
+      "dureeEstimee": "30min",
+      "distance": 38,
+      "latitude_depart": 31.6295,
+      "longitude_depart": -8.0075,
+      "latitude_arrivee": 31.9073,
+      "longitude_arrivee": -8.1167,
+      "etat": "En cours",
+      "tarif": {
+        "typeVoiture": "Confort",
+        "prixEstime": 78.00,
+        "prixFinal": null,
+        "devise": "DH",
+        "tauxChange": 0.094,
+        "prixEUR": 7.33
+      },
+      "nombrePassagers": 1,
+      "nombreBagages": 1,
+      "notes": "Départ aéroport",
+      "createdAt": "2026-02-07T11:15:00Z"
+    }
+  ],
+  "statistiques": {
+    "totalConducteurs": 5,
+    "totalPassagers": 2,
+    "totalTrajets": 10,
+    "trajetsEnCours": 3,
+    "trajetsTermines": 3,
+    "trajetsEnAttente": 4,
+    "villesActives": 8,
+    "revenuJournalier": 892.50,
+    "noteMoyenneConducteurs": 4.76,
+    "noteMoyennePassagers": 4.80
+  },
+  "villes": [
+    {
+      "code": "CAS",
+      "nom": "Casablanca",
+      "region": "Casablanca-Settat",
+      "latitude": 33.5731,
+      "longitude": -7.5898,
+      "populationActive": 3500000,
+      "tauxUtilisateurs": 45.2
+    },
+    {
+      "code": "FES",
+      "nom": "Fès",
+      "region": "Fès-Meknès",
+      "latitude": 34.0333,
+      "longitude": -5.0000,
+      "populationActive": 1200000,
+      "tauxUtilisateurs": 28.5
+    },
+    {
+      "code": "RBA",
+      "nom": "Rabat",
+      "region": "Rabat-Salé-Kénitra",
+      "latitude": 34.0209,
+      "longitude": -6.8416,
+      "populationActive": 1800000,
+      "tauxUtilisateurs": 32.1
+    },
+    {
+      "code": "MAR",
+      "nom": "Marrakech",
+      "region": "Marrakech-Safi",
+      "latitude": 31.6295,
+      "longitude": -8.0075,
+      "populationActive": 980000,
+      "tauxUtilisateurs": 22.3
+    },
+    {
+      "code": "TAN",
+      "nom": "Tanger",
+      "region": "Tanger-Tétouan-Al Hoceïma",
+      "latitude": 35.7671,
+      "longitude": -5.8126,
+      "populationActive": 950000,
+      "tauxUtilisateurs": 19.8
+    },
+    {
+      "code": "TET",
+      "nom": "Tétouan",
+      "region": "Tanger-Tétouan-Al Hoceïma",
+      "latitude": 35.5731,
+      "longitude": -5.3664,
+      "populationActive": 450000,
+      "tauxUtilisateurs": 12.5
+    },
+    {
+      "code": "ESS",
+      "nom": "Essaouira",
+      "region": "Marrakech-Safi",
+      "latitude": 31.5086,
+      "longitude": -9.7675,
+      "populationActive": 320000,
+      "tauxUtilisateurs": 15.3
+    },
+    {
+      "code": "MKN",
+      "nom": "Meknès",
+      "region": "Fès-Meknès",
+      "latitude": 33.8869,
+      "longitude": -5.5500,
+      "populationActive": 660000,
+      "tauxUtilisateurs": 18.7
+    }
+  ],
+  "metadonnees": {
+    "dateCreation": "2026-02-07T12:05:00Z",
+    "versionAPI": "2.0",
+    "devise": "DH",
+    "tauxChange": 0.094,
+    "devise_secondaire": "EUR",
+    "devisesFacultatives": ["USD", "GBP"]
+  }
+}
