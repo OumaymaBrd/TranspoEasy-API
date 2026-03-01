@@ -1,7 +1,6 @@
-
 {
   "horaireDeRequete": "2026-02-07T14:30:00Z",
-  "nombreTrajetsTotaux": 64,
+  "nombreTrajetsTotaux": 128,
   "devise": "DH",
   "trajetsRecherches": [
     {
@@ -22,6 +21,23 @@
       "conducteur": {"nom": "Hassan", "prenom": "Mohammed", "evaluation": 4.8}
     },
     {
+      "identifiantTrajet": "TRAJ_TNG_CB_001",
+      "villeDepart": "Tanger",
+      "villeLieuDepart": "Gare Routière",
+      "coordonneesDepart": {"latitude": 35.7595, "longitude": -5.8040},
+      "villeArrivee": "Casablanca",
+      "villeLieuArrivee": "Centre-Ville",
+      "coordonneesArrivee": {"latitude": 33.5731, "longitude": -7.5898},
+      "heureDepart": "14:00",
+      "heureArrivee": "17:30",
+      "duree": "3h 30min",
+      "distance": 280,
+      "prixDH": 80,
+      "typeVehicule": "Renault Clio",
+      "placesDisponibles": 2,
+      "conducteur": {"nom": "Hassan", "prenom": "Mohammed", "evaluation": 4.8}
+    },
+    {
       "identifiantTrajet": "TRAJ_CB_TNG_002",
       "villeDepart": "Casablanca",
       "villeLieuDepart": "Aéroport",
@@ -36,6 +52,23 @@
       "prixDH": 95,
       "typeVehicule": "Peugeot 301",
       "placesDisponibles": 2,
+      "conducteur": {"nom": "Karim", "prenom": "Ahmed", "evaluation": 4.6}
+    },
+    {
+      "identifiantTrajet": "TRAJ_TNG_CB_002",
+      "villeDepart": "Tanger",
+      "villeLieuDepart": "Centre-Ville",
+      "coordonneesDepart": {"latitude": 35.7689, "longitude": -5.8120},
+      "villeArrivee": "Casablanca",
+      "villeLieuArrivee": "Aéroport",
+      "coordonneesArrivee": {"latitude": 33.3675, "longitude": -7.5898},
+      "heureDepart": "15:00",
+      "heureArrivee": "18:30",
+      "duree": "3h 30min",
+      "distance": 280,
+      "prixDH": 95,
+      "typeVehicule": "Peugeot 301",
+      "placesDisponibles": 3,
       "conducteur": {"nom": "Karim", "prenom": "Ahmed", "evaluation": 4.6}
     },
     {
@@ -56,6 +89,23 @@
       "conducteur": {"nom": "Fatima", "prenom": "Saida", "evaluation": 4.9}
     },
     {
+      "identifiantTrajet": "TRAJ_TNG_CB_003",
+      "villeDepart": "Tanger",
+      "villeLieuDepart": "Aéroport",
+      "coordonneesDepart": {"latitude": 35.8120, "longitude": -5.7654},
+      "villeArrivee": "Casablanca",
+      "villeLieuArrivee": "Gare Routière",
+      "coordonneesArrivee": {"latitude": 33.5645, "longitude": -7.6234},
+      "heureDepart": "16:30",
+      "heureArrivee": "20:00",
+      "duree": "3h 30min",
+      "distance": 280,
+      "prixDH": 110,
+      "typeVehicule": "Toyota Corolla",
+      "placesDisponibles": 2,
+      "conducteur": {"nom": "Fatima", "prenom": "Saida", "evaluation": 4.9}
+    },
+    {
       "identifiantTrajet": "TRAJ_CB_TNG_004",
       "villeDepart": "Casablanca",
       "villeLieuDepart": "Quartier Anfa",
@@ -70,6 +120,23 @@
       "prixDH": 75,
       "typeVehicule": "Hyundai i20",
       "placesDisponibles": 1,
+      "conducteur": {"nom": "Youssef", "prenom": "Aziz", "evaluation": 4.7}
+    },
+    {
+      "identifiantTrajet": "TRAJ_TNG_CB_004",
+      "villeDepart": "Tanger",
+      "villeLieuDepart": "Quartier Kasbah",
+      "coordonneesDepart": {"latitude": 35.7834, "longitude": -5.8234},
+      "villeArrivee": "Casablanca",
+      "villeLieuArrivee": "Quartier Anfa",
+      "coordonneesArrivee": {"latitude": 33.5234, "longitude": -7.6456},
+      "heureDepart": "17:30",
+      "heureArrivee": "21:00",
+      "duree": "3h 30min",
+      "distance": 280,
+      "prixDH": 75,
+      "typeVehicule": "Hyundai i20",
+      "placesDisponibles": 2,
       "conducteur": {"nom": "Youssef", "prenom": "Aziz", "evaluation": 4.7}
     },
     {
@@ -90,6 +157,23 @@
       "conducteur": {"nom": "Rachid", "prenom": "Walid", "evaluation": 4.85}
     },
     {
+      "identifiantTrajet": "TRAJ_TNG_CB_005",
+      "villeDepart": "Tanger",
+      "villeLieuDepart": "Port",
+      "coordonneesDepart": {"latitude": 35.7640, "longitude": -5.8098},
+      "villeArrivee": "Casablanca",
+      "villeLieuArrivee": "Port",
+      "coordonneesArrivee": {"latitude": 33.5667, "longitude": -7.6135},
+      "heureDepart": "18:45",
+      "heureArrivee": "22:15",
+      "duree": "3h 30min",
+      "distance": 280,
+      "prixDH": 120,
+      "typeVehicule": "Mercedes C-Class",
+      "placesDisponibles": 2,
+      "conducteur": {"nom": "Rachid", "prenom": "Walid", "evaluation": 4.85}
+    },
+    {
       "identifiantTrajet": "TRAJ_CB_TNG_006",
       "villeDepart": "Casablanca",
       "villeLieuDepart": "Hassan II",
@@ -104,6 +188,23 @@
       "prixDH": 90,
       "typeVehicule": "Dacia Sandero",
       "placesDisponibles": 2,
+      "conducteur": {"nom": "Nabil", "prenom": "Jamal", "evaluation": 4.5}
+    },
+    {
+      "identifiantTrajet": "TRAJ_TNG_CB_006",
+      "villeDepart": "Tanger",
+      "villeLieuDepart": "Hassan II",
+      "coordonneesDepart": {"latitude": 35.7723, "longitude": -5.8045},
+      "villeArrivee": "Casablanca",
+      "villeLieuArrivee": "Hassan II",
+      "coordonneesArrivee": {"latitude": 33.5612, "longitude": -7.6298},
+      "heureDepart": "07:00",
+      "heureArrivee": "10:30",
+      "duree": "3h 30min",
+      "distance": 280,
+      "prixDH": 90,
+      "typeVehicule": "Dacia Sandero",
+      "placesDisponibles": 3,
       "conducteur": {"nom": "Nabil", "prenom": "Jamal", "evaluation": 4.5}
     },
     {
@@ -124,6 +225,23 @@
       "conducteur": {"nom": "Leila", "prenom": "Noor", "evaluation": 4.75}
     },
     {
+      "identifiantTrajet": "TRAJ_TNG_CB_007",
+      "villeDepart": "Tanger",
+      "villeLieuDepart": "Nouvelle Ville",
+      "coordonneesDepart": {"latitude": 35.7890, "longitude": -5.8267},
+      "villeArrivee": "Casablanca",
+      "villeLieuArrivee": "Derb Sultan",
+      "coordonneesArrivee": {"latitude": 33.5456, "longitude": -7.6789},
+      "heureDepart": "08:00",
+      "heureArrivee": "11:30",
+      "duree": "3h 30min",
+      "distance": 280,
+      "prixDH": 105,
+      "typeVehicule": "Nissan Micra",
+      "placesDisponibles": 2,
+      "conducteur": {"nom": "Leila", "prenom": "Noor", "evaluation": 4.75}
+    },
+    {
       "identifiantTrajet": "TRAJ_CB_TNG_008",
       "villeDepart": "Casablanca",
       "villeLieuDepart": "Maarif",
@@ -138,6 +256,23 @@
       "prixDH": 85,
       "typeVehicule": "Fiat 500",
       "placesDisponibles": 2,
+      "conducteur": {"nom": "Amina", "prenom": "Zohra", "evaluation": 4.65}
+    },
+    {
+      "identifiantTrajet": "TRAJ_TNG_CB_008",
+      "villeDepart": "Tanger",
+      "villeLieuDepart": "Medina",
+      "coordonneesDepart": {"latitude": 35.7567, "longitude": -5.8156},
+      "villeArrivee": "Casablanca",
+      "villeLieuArrivee": "Maarif",
+      "coordonneesArrivee": {"latitude": 33.5823, "longitude": -7.6045},
+      "heureDepart": "09:00",
+      "heureArrivee": "12:30",
+      "duree": "3h 30min",
+      "distance": 280,
+      "prixDH": 85,
+      "typeVehicule": "Fiat 500",
+      "placesDisponibles": 1,
       "conducteur": {"nom": "Amina", "prenom": "Zohra", "evaluation": 4.65}
     },
     {
@@ -158,6 +293,23 @@
       "conducteur": {"nom": "Mohamed", "prenom": "Tariq", "evaluation": 4.92}
     },
     {
+      "identifiantTrajet": "TRAJ_MRK_RBT_001",
+      "villeDepart": "Marrakech",
+      "villeLieuDepart": "Jemaa el-Fnaa",
+      "coordonneesDepart": {"latitude": 31.6295, "longitude": -8.0088},
+      "villeArrivee": "Rabat",
+      "villeLieuArrivee": "Centre-Ville",
+      "coordonneesArrivee": {"latitude": 34.0209, "longitude": -6.8416},
+      "heureDepart": "16:00",
+      "heureArrivee": "23:30",
+      "duree": "7h 30min",
+      "distance": 520,
+      "prixDH": 280,
+      "typeVehicule": "Toyota Verso",
+      "placesDisponibles": 3,
+      "conducteur": {"nom": "Mohamed", "prenom": "Tariq", "evaluation": 4.92}
+    },
+    {
       "identifiantTrajet": "TRAJ_RBT_MRK_002",
       "villeDepart": "Rabat",
       "villeLieuDepart": "Gare",
@@ -172,6 +324,23 @@
       "prixDH": 320,
       "typeVehicule": "Honda Odyssey",
       "placesDisponibles": 3,
+      "conducteur": {"nom": "Samir", "prenom": "Amin", "evaluation": 4.88}
+    },
+    {
+      "identifiantTrajet": "TRAJ_MRK_RBT_002",
+      "villeDepart": "Marrakech",
+      "villeLieuDepart": "Gare",
+      "coordonneesDepart": {"latitude": 31.6471, "longitude": -7.9898},
+      "villeArrivee": "Rabat",
+      "villeLieuArrivee": "Gare",
+      "coordonneesArrivee": {"latitude": 34.0189, "longitude": -6.8436},
+      "heureDepart": "06:30",
+      "heureArrivee": "14:00",
+      "duree": "7h 30min",
+      "distance": 520,
+      "prixDH": 320,
+      "typeVehicule": "Honda Odyssey",
+      "placesDisponibles": 2,
       "conducteur": {"nom": "Samir", "prenom": "Amin", "evaluation": 4.88}
     },
     {
@@ -192,6 +361,23 @@
       "conducteur": {"nom": "Zahra", "prenom": "Nadia", "evaluation": 4.81}
     },
     {
+      "identifiantTrajet": "TRAJ_MRK_RBT_003",
+      "villeDepart": "Marrakech",
+      "villeLieuDepart": "Aéroport",
+      "coordonneesDepart": {"latitude": 31.6070, "longitude": -8.0360},
+      "villeArrivee": "Rabat",
+      "villeLieuArrivee": "Aéroport",
+      "coordonneesArrivee": {"latitude": 34.0280, "longitude": -6.8396},
+      "heureDepart": "18:00",
+      "heureArrivee": "01:30",
+      "duree": "7h 30min",
+      "distance": 520,
+      "prixDH": 300,
+      "typeVehicule": "Ford S-Max",
+      "placesDisponibles": 3,
+      "conducteur": {"nom": "Zahra", "prenom": "Nadia", "evaluation": 4.81}
+    },
+    {
       "identifiantTrajet": "TRAJ_RBT_MRK_004",
       "villeDepart": "Rabat",
       "villeLieuDepart": "Médina",
@@ -206,6 +392,23 @@
       "prixDH": 290,
       "typeVehicule": "Peugeot 5008",
       "placesDisponibles": 1,
+      "conducteur": {"nom": "Hamza", "prenom": "Bilal", "evaluation": 4.79}
+    },
+    {
+      "identifiantTrajet": "TRAJ_MRK_RBT_004",
+      "villeDepart": "Marrakech",
+      "villeLieuDepart": "Médina",
+      "coordonneesDepart": {"latitude": 31.6471, "longitude": -8.0100},
+      "villeArrivee": "Rabat",
+      "villeLieuArrivee": "Médina",
+      "coordonneesArrivee": {"latitude": 34.0129, "longitude": -6.8496},
+      "heureDepart": "07:00",
+      "heureArrivee": "14:20",
+      "duree": "7h 20min",
+      "distance": 520,
+      "prixDH": 290,
+      "typeVehicule": "Peugeot 5008",
+      "placesDisponibles": 2,
       "conducteur": {"nom": "Hamza", "prenom": "Bilal", "evaluation": 4.79}
     },
     {
@@ -226,6 +429,23 @@
       "conducteur": {"nom": "Samir", "prenom": "Amin", "evaluation": 4.88}
     },
     {
+      "identifiantTrajet": "TRAJ_MRK_FES_001",
+      "villeDepart": "Marrakech",
+      "villeLieuDepart": "Gare",
+      "coordonneesDepart": {"latitude": 31.6471, "longitude": -7.9898},
+      "villeArrivee": "Fès",
+      "villeLieuArrivee": "Médina",
+      "coordonneesArrivee": {"latitude": 34.0633, "longitude": -5.0000},
+      "heureDepart": "06:00",
+      "heureArrivee": "14:00",
+      "duree": "8h 00min",
+      "distance": 590,
+      "prixDH": 320,
+      "typeVehicule": "Honda Odyssey",
+      "placesDisponibles": 2,
+      "conducteur": {"nom": "Samir", "prenom": "Amin", "evaluation": 4.88}
+    },
+    {
       "identifiantTrajet": "TRAJ_FES_MRK_002",
       "villeDepart": "Fès",
       "villeLieuDepart": "Gare",
@@ -240,6 +460,23 @@
       "prixDH": 350,
       "typeVehicule": "Toyota Verso",
       "placesDisponibles": 2,
+      "conducteur": {"nom": "Jamal", "prenom": "Hassan", "evaluation": 4.82}
+    },
+    {
+      "identifiantTrajet": "TRAJ_MRK_FES_002",
+      "villeDepart": "Marrakech",
+      "villeLieuDepart": "Jemaa el-Fnaa",
+      "coordonneesDepart": {"latitude": 31.6295, "longitude": -8.0088},
+      "villeArrivee": "Fès",
+      "villeLieuArrivee": "Gare",
+      "coordonneesArrivee": {"latitude": 34.0660, "longitude": -4.9980},
+      "heureDepart": "07:30",
+      "heureArrivee": "15:30",
+      "duree": "8h 00min",
+      "distance": 590,
+      "prixDH": 350,
+      "typeVehicule": "Toyota Verso",
+      "placesDisponibles": 3,
       "conducteur": {"nom": "Jamal", "prenom": "Hassan", "evaluation": 4.82}
     },
     {
@@ -260,6 +497,23 @@
       "conducteur": {"nom": "Amira", "prenom": "Layla", "evaluation": 4.75}
     },
     {
+      "identifiantTrajet": "TRAJ_MRK_FES_003",
+      "villeDepart": "Marrakech",
+      "villeLieuDepart": "Centre-Ville",
+      "coordonneesDepart": {"latitude": 31.6295, "longitude": -8.0088},
+      "villeArrivee": "Fès",
+      "villeLieuArrivee": "Centre-Ville",
+      "coordonneesArrivee": {"latitude": 34.0606, "longitude": -5.0020},
+      "heureDepart": "08:00",
+      "heureArrivee": "16:00",
+      "duree": "8h 00min",
+      "distance": 590,
+      "prixDH": 330,
+      "typeVehicule": "Hyundai H-1",
+      "placesDisponibles": 2,
+      "conducteur": {"nom": "Amira", "prenom": "Layla", "evaluation": 4.75}
+    },
+    {
       "identifiantTrajet": "TRAJ_FES_MRK_004",
       "villeDepart": "Fès",
       "villeLieuDepart": "Université",
@@ -274,6 +528,23 @@
       "prixDH": 300,
       "typeVehicule": "Seat Altea",
       "placesDisponibles": 2,
+      "conducteur": {"nom": "Brahim", "prenom": "Sami", "evaluation": 4.70}
+    },
+    {
+      "identifiantTrajet": "TRAJ_MRK_FES_004",
+      "villeDepart": "Marrakech",
+      "villeLieuDepart": "Université",
+      "coordonneesDepart": {"latitude": 31.6471, "longitude": -7.9898},
+      "villeArrivee": "Fès",
+      "villeLieuArrivee": "Université",
+      "coordonneesArrivee": {"latitude": 34.0500, "longitude": -5.0067},
+      "heureDepart": "06:30",
+      "heureArrivee": "14:30",
+      "duree": "8h 00min",
+      "distance": 590,
+      "prixDH": 300,
+      "typeVehicule": "Seat Altea",
+      "placesDisponibles": 3,
       "conducteur": {"nom": "Brahim", "prenom": "Sami", "evaluation": 4.70}
     },
     {
@@ -294,6 +565,23 @@
       "conducteur": {"nom": "Brahim", "prenom": "Sami", "evaluation": 4.7}
     },
     {
+      "identifiantTrajet": "TRAJ_FES_TNG_001",
+      "villeDepart": "Fès",
+      "villeLieuDepart": "Université",
+      "coordonneesDepart": {"latitude": 34.0500, "longitude": -5.0067},
+      "villeArrivee": "Tanger",
+      "villeLieuArrivee": "Centre-Ville",
+      "coordonneesArrivee": {"latitude": 35.7595, "longitude": -5.8040},
+      "heureDepart": "07:00",
+      "heureArrivee": "14:30",
+      "duree": "7h 30min",
+      "distance": 520,
+      "prixDH": 290,
+      "typeVehicule": "Seat Altea",
+      "placesDisponibles": 2,
+      "conducteur": {"nom": "Brahim", "prenom": "Sami", "evaluation": 4.7}
+    },
+    {
       "identifiantTrajet": "TRAJ_TNG_FES_002",
       "villeDepart": "Tanger",
       "villeLieuDepart": "Gare",
@@ -308,6 +596,23 @@
       "prixDH": 310,
       "typeVehicule": "Toyota Verso",
       "placesDisponibles": 2,
+      "conducteur": {"nom": "Fatima", "prenom": "Nora", "evaluation": 4.78}
+    },
+    {
+      "identifiantTrajet": "TRAJ_FES_TNG_002",
+      "villeDepart": "Fès",
+      "villeLieuDepart": "Médina",
+      "coordonneesDepart": {"latitude": 34.0633, "longitude": -5.0000},
+      "villeArrivee": "Tanger",
+      "villeLieuArrivee": "Gare",
+      "coordonneesArrivee": {"latitude": 35.7620, "longitude": -5.8020},
+      "heureDepart": "08:00",
+      "heureArrivee": "15:30",
+      "duree": "7h 30min",
+      "distance": 520,
+      "prixDH": 310,
+      "typeVehicule": "Toyota Verso",
+      "placesDisponibles": 3,
       "conducteur": {"nom": "Fatima", "prenom": "Nora", "evaluation": 4.78}
     },
     {
@@ -328,6 +633,23 @@
       "conducteur": {"nom": "Zainab", "prenom": "Fatima", "evaluation": 4.8}
     },
     {
+      "identifiantTrajet": "TRAJ_RBT_CB_001",
+      "villeDepart": "Rabat",
+      "villeLieuDepart": "Centre-Ville",
+      "coordonneesDepart": {"latitude": 34.0209, "longitude": -6.8416},
+      "villeArrivee": "Casablanca",
+      "villeLieuArrivee": "Gare",
+      "coordonneesArrivee": {"latitude": 33.5731, "longitude": -7.5898},
+      "heureDepart": "11:00",
+      "heureArrivee": "12:45",
+      "duree": "1h 45min",
+      "distance": 90,
+      "prixDH": 50,
+      "typeVehicule": "Citroen C4",
+      "placesDisponibles": 2,
+      "conducteur": {"nom": "Zainab", "prenom": "Fatima", "evaluation": 4.8}
+    },
+    {
       "identifiantTrajet": "TRAJ_CB_RBT_002",
       "villeDepart": "Casablanca",
       "villeLieuDepart": "Aéroport",
@@ -345,6 +667,125 @@
       "conducteur": {"nom": "Omar", "prenom": "Hassan", "evaluation": 4.75}
     },
     {
+      "identifiantTrajet": "TRAJ_RBT_CB_002",
+      "villeDepart": "Rabat",
+      "villeLieuDepart": "Gare",
+      "coordonneesDepart": {"latitude": 34.0189, "longitude": -6.8436},
+      "villeArrivee": "Casablanca",
+      "villeLieuArrivee": "Aéroport",
+      "coordonneesArrivee": {"latitude": 33.3675, "longitude": -7.5898},
+      "heureDepart": "12:30",
+      "heureArrivee": "14:15",
+      "duree": "1h 45min",
+      "distance": 90,
+      "prixDH": 65,
+      "typeVehicule": "Peugeot 301",
+      "placesDisponibles": 3,
+      "conducteur": {"nom": "Omar", "prenom": "Hassan", "evaluation": 4.75}
+    },
+    {
+      "identifiantTrajet": "TRAJ_CB_RBT_003",
+      "villeDepart": "Casablanca",
+      "villeLieuDepart": "Centre-Ville",
+      "coordonneesDepart": {"latitude": 33.5731, "longitude": -7.5898},
+      "villeArrivee": "Rabat",
+      "villeLieuArrivee": "Médina",
+      "coordonneesArrivee": {"latitude": 34.0129, "longitude": -6.8496},
+      "heureDepart": "10:00",
+      "heureArrivee": "11:45",
+      "duree": "1h 45min",
+      "distance": 90,
+      "prixDH": 55,
+      "typeVehicule": "Dacia Sandero",
+      "placesDisponibles": 3,
+      "conducteur": {"nom": "Youssef", "prenom": "Khalid", "evaluation": 4.72}
+    },
+    {
+      "identifiantTrajet": "TRAJ_RBT_CB_003",
+      "villeDepart": "Rabat",
+      "villeLieuDepart": "Médina",
+      "coordonneesDepart": {"latitude": 34.0129, "longitude": -6.8496},
+      "villeArrivee": "Casablanca",
+      "villeLieuArrivee": "Centre-Ville",
+      "coordonneesArrivee": {"latitude": 33.5731, "longitude": -7.5898},
+      "heureDepart": "14:00",
+      "heureArrivee": "15:45",
+      "duree": "1h 45min",
+      "distance": 90,
+      "prixDH": 55,
+      "typeVehicule": "Dacia Sandero",
+      "placesDisponibles": 2,
+      "conducteur": {"nom": "Youssef", "prenom": "Khalid", "evaluation": 4.72}
+    },
+    {
+      "identifiantTrajet": "TRAJ_CB_RBT_004",
+      "villeDepart": "Casablanca",
+      "villeLieuDepart": "Maarif",
+      "coordonneesDepart": {"latitude": 33.5823, "longitude": -7.6045},
+      "villeArrivee": "Rabat",
+      "villeLieuArrivee": "Agdal",
+      "coordonneesArrivee": {"latitude": 34.0056, "longitude": -6.8567},
+      "heureDepart": "14:30",
+      "heureArrivee": "16:15",
+      "duree": "1h 45min",
+      "distance": 90,
+      "prixDH": 60,
+      "typeVehicule": "Renault Clio",
+      "placesDisponibles": 2,
+      "conducteur": {"nom": "Nadia", "prenom": "Salma", "evaluation": 4.85}
+    },
+    {
+      "identifiantTrajet": "TRAJ_RBT_CB_004",
+      "villeDepart": "Rabat",
+      "villeLieuDepart": "Agdal",
+      "coordonneesDepart": {"latitude": 34.0056, "longitude": -6.8567},
+      "villeArrivee": "Casablanca",
+      "villeLieuArrivee": "Maarif",
+      "coordonneesArrivee": {"latitude": 33.5823, "longitude": -7.6045},
+      "heureDepart": "18:00",
+      "heureArrivee": "19:45",
+      "duree": "1h 45min",
+      "distance": 90,
+      "prixDH": 60,
+      "typeVehicule": "Renault Clio",
+      "placesDisponibles": 1,
+      "conducteur": {"nom": "Nadia", "prenom": "Salma", "evaluation": 4.85}
+    },
+    {
+      "identifiantTrajet": "TRAJ_CB_RBT_005",
+      "villeDepart": "Casablanca",
+      "villeLieuDepart": "Quartier Anfa",
+      "coordonneesDepart": {"latitude": 33.5234, "longitude": -7.6456},
+      "villeArrivee": "Rabat",
+      "villeLieuArrivee": "Hassan",
+      "coordonneesArrivee": {"latitude": 34.0234, "longitude": -6.8345},
+      "heureDepart": "16:00",
+      "heureArrivee": "17:45",
+      "duree": "1h 45min",
+      "distance": 90,
+      "prixDH": 70,
+      "typeVehicule": "Mercedes C-Class",
+      "placesDisponibles": 1,
+      "conducteur": {"nom": "Rachid", "prenom": "Walid", "evaluation": 4.85}
+    },
+    {
+      "identifiantTrajet": "TRAJ_RBT_CB_005",
+      "villeDepart": "Rabat",
+      "villeLieuDepart": "Hassan",
+      "coordonneesDepart": {"latitude": 34.0234, "longitude": -6.8345},
+      "villeArrivee": "Casablanca",
+      "villeLieuArrivee": "Quartier Anfa",
+      "coordonneesArrivee": {"latitude": 33.5234, "longitude": -7.6456},
+      "heureDepart": "08:30",
+      "heureArrivee": "10:15",
+      "duree": "1h 45min",
+      "distance": 90,
+      "prixDH": 70,
+      "typeVehicule": "Mercedes C-Class",
+      "placesDisponibles": 2,
+      "conducteur": {"nom": "Rachid", "prenom": "Walid", "evaluation": 4.85}
+    },
+    {
       "identifiantTrajet": "TRAJ_CB_MRK_001",
       "villeDepart": "Casablanca",
       "villeLieuDepart": "Centre-Ville",
@@ -359,6 +800,23 @@
       "prixDH": 240,
       "typeVehicule": "Toyota Verso",
       "placesDisponibles": 2,
+      "conducteur": {"nom": "Mohamed", "prenom": "Tariq", "evaluation": 4.92}
+    },
+    {
+      "identifiantTrajet": "TRAJ_MRK_CB_001",
+      "villeDepart": "Marrakech",
+      "villeLieuDepart": "Jemaa el-Fnaa",
+      "coordonneesDepart": {"latitude": 31.6295, "longitude": -8.0088},
+      "villeArrivee": "Casablanca",
+      "villeLieuArrivee": "Centre-Ville",
+      "coordonneesArrivee": {"latitude": 33.5731, "longitude": -7.5898},
+      "heureDepart": "15:00",
+      "heureArrivee": "21:30",
+      "duree": "6h 30min",
+      "distance": 410,
+      "prixDH": 240,
+      "typeVehicule": "Toyota Verso",
+      "placesDisponibles": 3,
       "conducteur": {"nom": "Mohamed", "prenom": "Tariq", "evaluation": 4.92}
     },
     {
@@ -379,6 +837,23 @@
       "conducteur": {"nom": "Samir", "prenom": "Amin", "evaluation": 4.88}
     },
     {
+      "identifiantTrajet": "TRAJ_MRK_CB_002",
+      "villeDepart": "Marrakech",
+      "villeLieuDepart": "Gare",
+      "coordonneesDepart": {"latitude": 31.6471, "longitude": -7.9898},
+      "villeArrivee": "Casablanca",
+      "villeLieuArrivee": "Gare",
+      "coordonneesArrivee": {"latitude": 33.5645, "longitude": -7.6234},
+      "heureDepart": "06:30",
+      "heureArrivee": "13:00",
+      "duree": "6h 30min",
+      "distance": 410,
+      "prixDH": 260,
+      "typeVehicule": "Honda Odyssey",
+      "placesDisponibles": 2,
+      "conducteur": {"nom": "Samir", "prenom": "Amin", "evaluation": 4.88}
+    },
+    {
       "identifiantTrajet": "TRAJ_CB_MRK_003",
       "villeDepart": "Casablanca",
       "villeLieuDepart": "Aéroport",
@@ -393,6 +868,23 @@
       "prixDH": 280,
       "typeVehicule": "Mercedes C-Class",
       "placesDisponibles": 1,
+      "conducteur": {"nom": "Rachid", "prenom": "Walid", "evaluation": 4.85}
+    },
+    {
+      "identifiantTrajet": "TRAJ_MRK_CB_003",
+      "villeDepart": "Marrakech",
+      "villeLieuDepart": "Aéroport",
+      "coordonneesDepart": {"latitude": 31.6070, "longitude": -8.0360},
+      "villeArrivee": "Casablanca",
+      "villeLieuArrivee": "Aéroport",
+      "coordonneesArrivee": {"latitude": 33.3675, "longitude": -7.5898},
+      "heureDepart": "18:00",
+      "heureArrivee": "00:30",
+      "duree": "6h 30min",
+      "distance": 410,
+      "prixDH": 280,
+      "typeVehicule": "Mercedes C-Class",
+      "placesDisponibles": 2,
       "conducteur": {"nom": "Rachid", "prenom": "Walid", "evaluation": 4.85}
     },
     {
@@ -413,6 +905,23 @@
       "conducteur": {"nom": "Nawel", "prenom": "Imane", "evaluation": 4.85}
     },
     {
+      "identifiantTrajet": "TRAJ_RBT_TNG_001",
+      "villeDepart": "Rabat",
+      "villeLieuDepart": "Gare",
+      "coordonneesDepart": {"latitude": 34.0189, "longitude": -6.8436},
+      "villeArrivee": "Tanger",
+      "villeLieuArrivee": "Gare",
+      "coordonneesArrivee": {"latitude": 35.7595, "longitude": -5.8040},
+      "heureDepart": "14:00",
+      "heureArrivee": "17:15",
+      "duree": "3h 15min",
+      "distance": 240,
+      "prixDH": 140,
+      "typeVehicule": "Volkswagen Passat",
+      "placesDisponibles": 3,
+      "conducteur": {"nom": "Nawel", "prenom": "Imane", "evaluation": 4.85}
+    },
+    {
       "identifiantTrajet": "TRAJ_TNG_RBT_002",
       "villeDepart": "Tanger",
       "villeLieuDepart": "Centre-Ville",
@@ -427,6 +936,23 @@
       "prixDH": 155,
       "typeVehicule": "Toyota Verso",
       "placesDisponibles": 1,
+      "conducteur": {"nom": "Fatima", "prenom": "Zainab", "evaluation": 4.80}
+    },
+    {
+      "identifiantTrajet": "TRAJ_RBT_TNG_002",
+      "villeDepart": "Rabat",
+      "villeLieuDepart": "Centre-Ville",
+      "coordonneesDepart": {"latitude": 34.0209, "longitude": -6.8416},
+      "villeArrivee": "Tanger",
+      "villeLieuArrivee": "Centre-Ville",
+      "coordonneesArrivee": {"latitude": 35.7595, "longitude": -5.8040},
+      "heureDepart": "15:30",
+      "heureArrivee": "18:45",
+      "duree": "3h 15min",
+      "distance": 240,
+      "prixDH": 155,
+      "typeVehicule": "Toyota Verso",
+      "placesDisponibles": 2,
       "conducteur": {"nom": "Fatima", "prenom": "Zainab", "evaluation": 4.80}
     },
     {
@@ -447,6 +973,23 @@
       "conducteur": {"nom": "Jamal", "prenom": "Rashid", "evaluation": 4.7}
     },
     {
+      "identifiantTrajet": "TRAJ_MKN_FES_001",
+      "villeDepart": "Meknès",
+      "villeLieuDepart": "Centre-Ville",
+      "coordonneesDepart": {"latitude": 33.8869, "longitude": -5.5449},
+      "villeArrivee": "Fès",
+      "villeLieuArrivee": "Centre-Ville",
+      "coordonneesArrivee": {"latitude": 34.0633, "longitude": -5.0000},
+      "heureDepart": "13:00",
+      "heureArrivee": "15:00",
+      "duree": "2h 00min",
+      "distance": 65,
+      "prixDH": 45,
+      "typeVehicule": "Skoda Octavia",
+      "placesDisponibles": 2,
+      "conducteur": {"nom": "Jamal", "prenom": "Rashid", "evaluation": 4.7}
+    },
+    {
       "identifiantTrajet": "TRAJ_FES_MKN_002",
       "villeDepart": "Fès",
       "villeLieuDepart": "Gare",
@@ -461,6 +1004,23 @@
       "prixDH": 55,
       "typeVehicule": "Peugeot 301",
       "placesDisponibles": 2,
+      "conducteur": {"nom": "Karim", "prenom": "Hassan", "evaluation": 4.73}
+    },
+    {
+      "identifiantTrajet": "TRAJ_MKN_FES_002",
+      "villeDepart": "Meknès",
+      "villeLieuDepart": "Gare",
+      "coordonneesDepart": {"latitude": 33.8900, "longitude": -5.5420},
+      "villeArrivee": "Fès",
+      "villeLieuArrivee": "Gare",
+      "coordonneesArrivee": {"latitude": 34.0660, "longitude": -4.9980},
+      "heureDepart": "14:30",
+      "heureArrivee": "16:30",
+      "duree": "2h 00min",
+      "distance": 65,
+      "prixDH": 55,
+      "typeVehicule": "Peugeot 301",
+      "placesDisponibles": 3,
       "conducteur": {"nom": "Karim", "prenom": "Hassan", "evaluation": 4.73}
     },
     {
@@ -481,6 +1041,23 @@
       "conducteur": {"nom": "Ali", "prenom": "Hassan", "evaluation": 4.9}
     },
     {
+      "identifiantTrajet": "TRAJ_OUJ_MRK_001",
+      "villeDepart": "Oujda",
+      "villeLieuDepart": "Centre-Ville",
+      "coordonneesDepart": {"latitude": 34.6837, "longitude": -1.9120},
+      "villeArrivee": "Marrakech",
+      "villeLieuArrivee": "Médina",
+      "coordonneesArrivee": {"latitude": 31.6295, "longitude": -8.0088},
+      "heureDepart": "06:00",
+      "heureArrivee": "16:00",
+      "duree": "10h 00min",
+      "distance": 750,
+      "prixDH": 450,
+      "typeVehicule": "Peugeot 5008",
+      "placesDisponibles": 2,
+      "conducteur": {"nom": "Ali", "prenom": "Hassan", "evaluation": 4.9}
+    },
+    {
       "identifiantTrajet": "TRAJ_MRK_OUJ_002",
       "villeDepart": "Marrakech",
       "villeLieuDepart": "Gare",
@@ -495,6 +1072,23 @@
       "prixDH": 480,
       "typeVehicule": "Toyota Verso",
       "placesDisponibles": 2,
+      "conducteur": {"nom": "Mohamed", "prenom": "Ahmed", "evaluation": 4.87}
+    },
+    {
+      "identifiantTrajet": "TRAJ_OUJ_MRK_002",
+      "villeDepart": "Oujda",
+      "villeLieuDepart": "Gare",
+      "coordonneesDepart": {"latitude": 34.6860, "longitude": -1.9100},
+      "villeArrivee": "Marrakech",
+      "villeLieuArrivee": "Gare",
+      "coordonneesArrivee": {"latitude": 31.6471, "longitude": -7.9898},
+      "heureDepart": "05:30",
+      "heureArrivee": "15:30",
+      "duree": "10h 00min",
+      "distance": 750,
+      "prixDH": 480,
+      "typeVehicule": "Toyota Verso",
+      "placesDisponibles": 3,
       "conducteur": {"nom": "Mohamed", "prenom": "Ahmed", "evaluation": 4.87}
     },
     {
@@ -515,6 +1109,23 @@
       "conducteur": {"nom": "Omar", "prenom": "Karim", "evaluation": 4.75}
     },
     {
+      "identifiantTrajet": "TRAJ_ELJ_CB_001",
+      "villeDepart": "El Jadida",
+      "villeLieuDepart": "Centre-Ville",
+      "coordonneesDepart": {"latitude": 33.2567, "longitude": -8.7642},
+      "villeArrivee": "Casablanca",
+      "villeLieuArrivee": "Aéroport",
+      "coordonneesArrivee": {"latitude": 33.3675, "longitude": -7.5898},
+      "heureDepart": "12:00",
+      "heureArrivee": "14:00",
+      "duree": "2h 00min",
+      "distance": 100,
+      "prixDH": 55,
+      "typeVehicule": "Ford Focus",
+      "placesDisponibles": 2,
+      "conducteur": {"nom": "Omar", "prenom": "Karim", "evaluation": 4.75}
+    },
+    {
       "identifiantTrajet": "TRAJ_CB_ELJ_002",
       "villeDepart": "Casablanca",
       "villeLieuDepart": "Centre-Ville",
@@ -529,6 +1140,23 @@
       "prixDH": 65,
       "typeVehicule": "Peugeot 301",
       "placesDisponibles": 2,
+      "conducteur": {"nom": "Zahra", "prenom": "Layla", "evaluation": 4.80}
+    },
+    {
+      "identifiantTrajet": "TRAJ_ELJ_CB_002",
+      "villeDepart": "El Jadida",
+      "villeLieuDepart": "Gare",
+      "coordonneesDepart": {"latitude": 33.2587, "longitude": -8.7622},
+      "villeArrivee": "Casablanca",
+      "villeLieuArrivee": "Centre-Ville",
+      "coordonneesArrivee": {"latitude": 33.5731, "longitude": -7.5898},
+      "heureDepart": "13:00",
+      "heureArrivee": "15:00",
+      "duree": "2h 00min",
+      "distance": 100,
+      "prixDH": 65,
+      "typeVehicule": "Peugeot 301",
+      "placesDisponibles": 3,
       "conducteur": {"nom": "Zahra", "prenom": "Layla", "evaluation": 4.80}
     },
     {
@@ -549,6 +1177,23 @@
       "conducteur": {"nom": "Hana", "prenom": "Layla", "evaluation": 4.6}
     },
     {
+      "identifiantTrajet": "TRAJ_CB_SAF_001",
+      "villeDepart": "Casablanca",
+      "villeLieuDepart": "Centre-Ville",
+      "coordonneesDepart": {"latitude": 33.5731, "longitude": -7.5898},
+      "villeArrivee": "Safi",
+      "villeLieuArrivee": "Centre-Ville",
+      "coordonneesArrivee": {"latitude": 32.2667, "longitude": -9.2350},
+      "heureDepart": "14:00",
+      "heureArrivee": "16:15",
+      "duree": "2h 15min",
+      "distance": 140,
+      "prixDH": 70,
+      "typeVehicule": "Opel Vectra",
+      "placesDisponibles": 2,
+      "conducteur": {"nom": "Hana", "prenom": "Layla", "evaluation": 4.6}
+    },
+    {
       "identifiantTrajet": "TRAJ_TNG_ELH_001",
       "villeDepart": "Tanger",
       "villeLieuDepart": "Médina",
@@ -563,6 +1208,23 @@
       "prixDH": 160,
       "typeVehicule": "Hyundai Santa Fe",
       "placesDisponibles": 2,
+      "conducteur": {"nom": "Reda", "prenom": "Salim", "evaluation": 4.82}
+    },
+    {
+      "identifiantTrajet": "TRAJ_ELH_TNG_001",
+      "villeDepart": "Al Hoceima",
+      "villeLieuDepart": "Centre-Ville",
+      "coordonneesDepart": {"latitude": 35.2531, "longitude": -3.9378},
+      "villeArrivee": "Tanger",
+      "villeLieuArrivee": "Médina",
+      "coordonneesArrivee": {"latitude": 35.7595, "longitude": -5.8040},
+      "heureDepart": "14:00",
+      "heureArrivee": "18:30",
+      "duree": "4h 30min",
+      "distance": 210,
+      "prixDH": 160,
+      "typeVehicule": "Hyundai Santa Fe",
+      "placesDisponibles": 3,
       "conducteur": {"nom": "Reda", "prenom": "Salim", "evaluation": 4.82}
     },
     {
@@ -581,13 +1243,30 @@
       "typeVehicule": "Chevrolet Cruze",
       "placesDisponibles": 1,
       "conducteur": {"nom": "Karim", "prenom": "Noor", "evaluation": 4.75}
+    },
+    {
+      "identifiantTrajet": "TRAJ_AIT_MRK_001",
+      "villeDepart": "Aït Melloul",
+      "villeLieuDepart": "Centre-Ville",
+      "coordonneesDepart": {"latitude": 29.6861, "longitude": -8.0854},
+      "villeArrivee": "Marrakech",
+      "villeLieuArrivee": "Gare",
+      "coordonneesArrivee": {"latitude": 31.6471, "longitude": -7.9898},
+      "heureDepart": "14:00",
+      "heureArrivee": "18:00",
+      "duree": "4h 00min",
+      "distance": 200,
+      "prixDH": 130,
+      "typeVehicule": "Chevrolet Cruze",
+      "placesDisponibles": 2,
+      "conducteur": {"nom": "Karim", "prenom": "Noor", "evaluation": 4.75}
     }
   ],
   "metadonnees": {
-    "nombreTrajetsDifferents": 16,
+    "nombreTrajetsDifferents": 32,
     "nombreRepetitions": 4,
-    "villesDepart": ["Casablanca", "Rabat", "Fès", "Tanger", "Marrakech", "Safi"],
-    "villesArrivee": ["Tanger", "Marrakech", "Fès", "Rabat", "El Jadida", "Oujda", "Meknès", "Al Hoceima", "Aït Melloul"],
+    "villesDepart": ["Casablanca", "Rabat", "Fès", "Tanger", "Marrakech", "Safi", "El Jadida", "Meknès", "Al Hoceima", "Aït Melloul", "Oujda"],
+    "villesArrivee": ["Casablanca", "Rabat", "Fès", "Tanger", "Marrakech", "Safi", "El Jadida", "Meknès", "Al Hoceima", "Aït Melloul", "Oujda"],
     "gammesPrix": {
       "prixMin": 45,
       "prixMax": 480,
